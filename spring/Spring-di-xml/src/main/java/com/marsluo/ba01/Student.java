@@ -5,6 +5,12 @@ public class Student {
     private int age;
     private School school;
 
+    public Student(String name, int age, School school) {
+        this.name = name;
+        this.age = age;
+        this.school = school;
+    }
+
     public void setName(String name) {
         this.name = name;
     }
