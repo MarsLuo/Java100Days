@@ -25,5 +25,4 @@ class HelloSpringApplicationTests {
 				.andExpect(status().isOk())
 				.andExpect(content().string("Hello Spring"));
 	}
-
 }
