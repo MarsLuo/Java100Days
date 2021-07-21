@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class HelloController {
     @RequestMapping(value = "/hello", method = RequestMethod.GET)
-    public String hello() {
-        return "Hello Spring";
+    public String hello() throws Exception {
+        throw new Exception("发生错误");
     }
 }
