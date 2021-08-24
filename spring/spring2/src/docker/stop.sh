@@ -1,3 +1,0 @@
-#! bash
-
-docker-compose stop
